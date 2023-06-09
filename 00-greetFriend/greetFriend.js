@@ -1,6 +1,5 @@
 function greetFriend(name) {
-    document.write(name);
-
+    return 'Hello, ' + name + '!';
 }
 
 // Do not edit this line;
