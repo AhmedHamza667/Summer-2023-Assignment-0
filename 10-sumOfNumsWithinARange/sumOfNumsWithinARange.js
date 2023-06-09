@@ -7,6 +7,7 @@ function sumOfNumsWithinARange(nums, start, end) {
             sum += nums[i];
         }
     }
+    return sum;
 }
 
 // Do not edit this line;
