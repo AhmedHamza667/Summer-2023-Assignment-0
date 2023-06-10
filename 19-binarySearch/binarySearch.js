@@ -1,10 +1,9 @@
 class MySolution {
-  constructor() {
-    this.flag = false; // this is optional to use;
-  }
+    constructor() {
+        this.flag = false;
+    }
 
-  binarySearch(nums, target) {
-    // Insert code here;
+    binarySearch(nums, target) {
         this.binarySearchRecursive(nums, target, 0, nums.length - 1);
         return this.flag;
     }
@@ -25,8 +24,6 @@ class MySolution {
             this.binarySearchRecursive(nums, target, mid + 1, right);
         }
     }
-}
-  }
 }
 
 // Do not edit this line;
